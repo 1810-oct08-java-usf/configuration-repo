@@ -1,5 +1,6 @@
 spring:
-  application: project-service
+  application: 
+    name: project-service
 
 server:
   port: 10002
