@@ -1,3 +1,6 @@
+spring:
+  application: auth-service
+
 server:
   port: 10001
 

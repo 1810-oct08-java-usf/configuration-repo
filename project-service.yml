@@ -1,3 +1,6 @@
+spring:
+  application: project-service
+
 server:
   port: 10002
 
