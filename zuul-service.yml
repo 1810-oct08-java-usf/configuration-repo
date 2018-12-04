@@ -4,7 +4,7 @@ server:
 eureka:
   client:
     service-url:
-      default-zone: http://rpm-elb-996808586.us-east-1.elb.amazonaws.com/rpm-eureka/eureka/
+      default-zone: http://rpm-elb-996808586.us-east-1.elb.amazonaws.com/rpm-eureka/
 
 zuul:
   ignored-services: '*'
