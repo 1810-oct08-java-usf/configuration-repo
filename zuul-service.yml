@@ -7,7 +7,7 @@ eureka:
       default-zone: http://localhost:8761/eureka
 
 zuul:
-  ignored-services: *
+  ignored-services: '*'
   routes:
   - auth-service:
       path: /auth/**
