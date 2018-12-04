@@ -5,6 +5,8 @@ eureka:
   client:
     service-url:
       default-zone: http://rpm-elb-996808586.us-east-1.elb.amazonaws.com/rpm-eureka/
+    register-with-eureka: true
+    fetch-registry: true
 
 zuul:
   ignored-services: '*'
