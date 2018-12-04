@@ -9,11 +9,11 @@ eureka:
 zuul:
   ignored-services: '*'
   routes:
-  - auth-service:
+    auth-service:
       path: /auth/**
       service-id: auth-service
       strip-prefix: false
       sensitive-headers: Cookie,Set-Cookie
-  - project-service:
+    project-service:
       path: /projects/**
       service-id: project-service
