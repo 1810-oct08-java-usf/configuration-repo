@@ -1,7 +1,20 @@
+spring:
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
+
 server:
   port: 10001
 
 eureka:
   client:
-    service-url:
-      default-zone: http://localhost:8761/eureka
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+    register-with-eureka: true
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
