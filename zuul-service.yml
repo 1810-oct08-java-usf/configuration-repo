@@ -14,7 +14,7 @@ zuul:
     auth-service:
       path: /auth/**
       service-id: auth-service
-      strip-prefix: true
+      strip-prefix: false
       sensitive-headers: Cookie,Set-Cookie
     project-service:
       path: /projects/**
