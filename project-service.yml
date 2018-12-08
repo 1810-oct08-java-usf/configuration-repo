@@ -16,8 +16,8 @@ management:
 
 aws:
   config:
-    aws-access-key-id: AKIAIFXOLF5DH22XQVUA
-    aws-secret-access-key: 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
+    aws-access-key-id: ${AWS_ACCESS_KEY}
+    aws-secret-access-key: ${AWS_SECRET_ACCESS_KEY}
     s3-endpoint: https://s3.us-east-2.amazonaws.com/
     img-bucket-name: rpm-img
     img-bucket-region: us-east-2
