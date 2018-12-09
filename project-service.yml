@@ -6,6 +6,13 @@ eureka:
     serviceUrl:
       defaultZone: http://rpm-elb-996808586.us-east-1.elb.amazonaws.com/rpm-eureka/eureka
     register-with-eureka: true
+    fetch-registry: true
+  instance:
+    hostname: http://rpm-elb-996808586.us-east-1.elb.amazonaws.com/rpm-project/
+    statusPageUrl: http://rpm-elb-996808586.us-east-1.elb.amazonaws.com/rpm-project/actuator/info
+    healthCheckUrl: http://rpm-elb-996808586.us-east-1.elb.amazonaws.com/rpm-project/actuator/health
+    homePageUrl: http://rpm-elb-996808586.us-east-1.elb.amazonaws.com/rpm-project/
+    instance-id: project-service
      
 
 management:
