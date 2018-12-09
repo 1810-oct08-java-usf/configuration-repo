@@ -10,6 +10,11 @@ eureka:
       defaultZone: http://rpm-elb-996808586.us-east-1.elb.amazonaws.com/rpm-eureka/eureka
     register-with-eureka: true
     fetch-registry: true
+  instance:
+    statusPageUrl: http://rpm-elb-996808586.us-east-1.elb.amazonaws.com/rpm-zuul/actuator/info
+    healthCheckUrl: http://rpm-elb-996808586.us-east-1.elb.amazonaws.com/rpm-zuul/actuator/health
+    homePageUrl: http://rpm-elb-996808586.us-east-1.elb.amazonaws.com/rpm-zuul
+    instance-id: zuul-service
 
 zuul:
   ignored-services: '*'
