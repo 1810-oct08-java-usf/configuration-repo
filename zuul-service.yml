@@ -22,6 +22,7 @@ zuul:
   routes:
     auth-service:
       path: /auth/**
+      url: http://rpm-elb-996808586.us-east-1.elb.amazonaws.com/rpm-auth
       service-id: auth-service
       strip-prefix: true
       sensitive-headers: Cookie,Set-Cookie
