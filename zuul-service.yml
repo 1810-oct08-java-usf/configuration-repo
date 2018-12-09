@@ -28,6 +28,7 @@ zuul:
       sensitive-headers: Cookie,Set-Cookie
     project-service:
       path: /projects/**
+      url: http://rpm-elb-996808586.us-east-1.elb.amazonaws.com/rpm-project
       service-id: project-service
       
 management:
