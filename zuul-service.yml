@@ -39,6 +39,7 @@ zuul:
     project-service:
       path: /projects/**
       url: http://rpm-elb-996808586.us-east-1.elb.amazonaws.com/rpm-project
+      strip-prefix: true
       service-id: project-service
       
 management:
