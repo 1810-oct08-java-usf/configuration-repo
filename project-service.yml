@@ -10,6 +10,10 @@ server:
   tomcat:
     max-http-post-size: 2MB
     max-swallow-size: 2MB 
+  error:
+    whitelabel:
+      enabled: false
+    include-stacktrace: always
 
 eureka:
   client:
