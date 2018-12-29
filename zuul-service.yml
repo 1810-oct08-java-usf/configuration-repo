@@ -41,7 +41,7 @@ zuul:
       strip-prefix: true
       sensitive-headers: Cookie,Set-Cookie
     project-service:
-      path: /projects/**
+      path: /project/**
       url: http://rpm-alb-1871573764.eu-west-2.elb.amazonaws.com/project
       service-id: project-service
       
