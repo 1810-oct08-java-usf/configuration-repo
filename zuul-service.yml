@@ -42,8 +42,8 @@ zuul:
       sensitive-headers: Cookie,Set-Cookie
     project-service:
       path: /project/**
-      url: forward:http://rpm-alb-1871573764.eu-west-2.elb.amazonaws.com/project
-      strip-prefix: false
+      url: http://rpm-alb-1871573764.eu-west-2.elb.amazonaws.com/project
+      strip-prefix: true
       service-id: project-service
       
 management:
