@@ -51,6 +51,4 @@ management:
       exposure:
         include: '*'
         
-security:
-  jwt:
-    secret: ${RPM_JWT_SECRET}
+
