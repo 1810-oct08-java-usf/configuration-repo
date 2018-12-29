@@ -43,6 +43,7 @@ zuul:
     project-service:
       path: /project/**
       url: forward:http://rpm-alb-1871573764.eu-west-2.elb.amazonaws.com/project
+      strip-prefix: false
       service-id: project-service
       
 management:
