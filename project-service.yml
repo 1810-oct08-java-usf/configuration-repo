@@ -4,6 +4,13 @@ spring:
       max-file-size: 2MB
       max-request-size: 2MB
       enabled: true
+  cloud:
+    discovery:
+      enabled: false
+    config:
+      discovery:
+        enabled: false
+      enabled: false
 
 server:
   port: 10002
