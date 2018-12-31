@@ -33,6 +33,7 @@ eureka:
 #     instance-id: zuul-service
 
 zuul:
+  ignoreSecurityHeaders: false
   ignored-services: '*'
   routes:
     auth-service:
