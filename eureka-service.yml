@@ -1,3 +1,4 @@
+# Eureka-service is solely used locally because AWS ALB serves this purpose during a live environment.
 server:
   port: 8761
 
