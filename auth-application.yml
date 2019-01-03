@@ -1,3 +1,4 @@
+#use this yml file to run locally. Place in src/main/resources folder of auth-service.
 spring:
   h2:
     console:
