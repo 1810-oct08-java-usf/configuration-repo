@@ -39,14 +39,14 @@ zuul:
   routes:
     auth-service:
       path: /auth/**
-      url: http://rpm-alb-1871573764.eu-west-2.elb.amazonaws.com/auth
+      url: http://rpm-264761131.us-east-1.elb.amazonaws.com/auth
       service-id: auth-service
       strip-prefix: true
       sensitive-headers: Cookie,Set-Cookie
     project-service:
       path: /project/**
       sensitiveHeaders:
-      url: http://rpm-alb-1871573764.eu-west-2.elb.amazonaws.com/project
+      url: http://rpm-264761131.us-east-1.elb.amazonaws.com/project
       strip-prefix: true
       service-id: project-service
       
