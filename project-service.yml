@@ -22,7 +22,7 @@ eureka:
   client:
     enabled: false
     serviceUrl:
-      defaultZone: http://rpm-elb-996808586.us-east-1.elb.amazonaws.com/rpm-eureka/eureka
+      defaultZone: http://rpm-264761131.us-east-1.elb.amazonaws.com/rpm-eureka/eureka
     register-with-eureka: false
     fetch-registry: false
 #   instance:
