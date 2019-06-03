@@ -11,6 +11,8 @@ server:
   tomcat:
     max-http-post-size: 2MB
     max-swallow-size: 2MB 
+    max-http-post-size:
+    context-path: test
 
 eureka:
   client:
