@@ -39,3 +39,6 @@ aws:
     s3-endpoint: https://s3.eu-west-2.amazonaws.com
     bucket-name: rpm-project-assets
     bucket-region: eu-west-2
+
+
+project-service.value: custom
