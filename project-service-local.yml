@@ -11,7 +11,6 @@ server:
   tomcat:
     max-http-post-size: 2MB
     max-swallow-size: 2MB 
-    context-path: test
 
 eureka:
   client:
@@ -40,6 +39,3 @@ aws:
     s3-endpoint: https://s3.eu-west-2.amazonaws.com
     bucket-name: rpm-project-assets
     bucket-region: eu-west-2
-
-
-project-service.value: custom
