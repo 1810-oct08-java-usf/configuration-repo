@@ -1,0 +1,10 @@
+# Default values for environment variables intended for local development
+# These values are supplied by the environment for cloud-deployed services
+# Or for connecting to cloud deployed services
+
+RPM_AWS_ACCESS_KEY: revature-rpm
+RPM_AWS_SECRET_ACCESS_KEY: revature-rpm
+RPM_JWT_SECRET: local-deploy
+RPM_ZUUL_ACCESS_HEADER: 1810-Oct22-Java-USF
+RPM_ZUUL_ACCESS_SALT: RevatureProjectManagement
+CONFIG_SERVICE_URL: http://rpm-264761131.us-east-1.elb.amazonaws.com/config
