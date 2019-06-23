@@ -38,7 +38,7 @@ zuul:
       strip-prefix: true
       sensitive-headers: Cookie,Set-Cookie
     project-service:
-      path: /projects/**
+      path: /project/**
       url: http://localhost:10002
       service-id: project-service
       
