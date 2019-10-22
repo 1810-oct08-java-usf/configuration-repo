@@ -1,4 +1,3 @@
-#Used to run Project-service locally. Place in src/main/resources folder of Project-service
 spring:  
   servlet:
     multipart:
@@ -19,14 +18,7 @@ eureka:
       defaultZone: http://localhost:8761/eureka
     register-with-eureka: true
     fetch-registry: true
-  instance:
-    hostname: http://localhost:10002
-    statusPageUrl: http://localhost:10002/actuator/info
-    healthCheckUrl:  http://localhost:10002/actuator/health
-    homePageUrl:  http://localhost:10002
-    instance-id: project-service
      
-
 management:
   endpoints:
     web:
