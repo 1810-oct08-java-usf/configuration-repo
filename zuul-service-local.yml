@@ -21,12 +21,6 @@ eureka:
       defaultZone: http://localhost:8761/eureka
     register-with-eureka: true
     fetch-registry: true
-  instance:
-    hostname: http://localhost:8762
-    statusPageUrl: http://localhost:8762/actuator/info
-    healthCheckUrl: http://localhost:8762/actuator/health
-    homePageUrl: localhost:8762
-    instance-id: zuul-service
 
 zuul:
   ignored-services: '*'
