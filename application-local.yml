@@ -7,4 +7,3 @@ RPM_AWS_SECRET_ACCESS_KEY: local-deploy
 RPM_JWT_SECRET: local-deploy
 RPM_ZUUL_ACCESS_HEADER: local-deploy
 RPM_ZUUL_ACCESS_SALT: local-deploy
-CONFIG_SERVICE_URL: http://localhost:8888
