@@ -15,6 +15,6 @@ spring:
           lower-case-service-id: true
       routes: 
       - id: auth-service
-        url: lb://auth-service
+        url: lb://auth-service/test
         predicates:
           - Path=/test
