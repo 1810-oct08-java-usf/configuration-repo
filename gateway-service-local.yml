@@ -12,12 +12,8 @@ eureka:
 spring: 
   cloud: 
     gateway: 
-      discovery: 
-        locator: 
-          enabled: true
-          lower-case-service: true
       routes: 
-      - id: test
-        url: lb://AUTH-SERVICE
+      - id: auth-service
+        url: lb://auth-service
         predicates:
-          - Path=/test/**
+          - Path=/api/test/**
