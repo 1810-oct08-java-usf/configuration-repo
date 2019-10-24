@@ -17,4 +17,4 @@ spring:
       - id: auth-service
         url: lb://auth-service
         predicates:
-          - Path=/test/status
+          - Path=/test
