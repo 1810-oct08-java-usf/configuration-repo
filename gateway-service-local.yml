@@ -17,3 +17,5 @@ spring:
         url: lb://auth-service
         predicates:
           - Path=/api/test/**
+        filters:
+        - RewritePath=/api/(?<test>.*), /$\{test}
