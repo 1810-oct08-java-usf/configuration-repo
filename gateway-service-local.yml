@@ -14,6 +14,6 @@ spring:
           enabled: true
           lower-case-service-id: true
     routes:
-    - id: "login"
-      uri: "lb://AUTH-SERVICE"
-      path: "/login"
+    - id: login
+      uri: lb://AUTH-SERVICE
+      path: /login
