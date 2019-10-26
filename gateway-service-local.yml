@@ -22,6 +22,6 @@ management:
 
 rpm: 
   gateway: 
-    header: X-RPM-Gateway
-    secret: local-deploy
-    salt: local-deploy
+    header: "X-RPM-Gateway"
+    secret: "local-deploy"
+    salt: "local-deploy"
