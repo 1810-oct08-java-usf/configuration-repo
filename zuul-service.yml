@@ -43,6 +43,11 @@ zuul:
       url: http://rpm-264761131.us-east-1.elb.amazonaws.com/project
       strip-prefix: true
       service-id: project-service
+    notification-service:
+      path: /notifications/**
+      sensitiveHeaders:
+      strip-prefix: true
+      service-id: notification-service
       
 management:
   endpoints:
